@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Max Luxury Tur</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/js/js.js"></script>
+</head>
+
+
+<body>
+
+	<div class="whatsap">
+		<a href="https://api.whatsapp.com/send?phone=seunumerodetelefone&text=sua%20mensagem" target="_blank" title="Entre em contato com a gente através do nosso whatsapp">
+			<img src="assets/images/logo_whatsapp.jpg">
+			<p> Fale com a gente! :) </p>
+		</a>
+	</div>
+
+	<a href="index.php" title="Voltar ao topo"> <div class="voltar"></div> </a>
+
+	<div class="espaco"></div>
+	<header>
+		<div class="container">
+			<div class="logo"> <a href="">Max Luxury Tur</a> </div>
+			<div class="menu">
+				<nav>
+					<ul>
+						<li> <a href="#sobre_empresa">A EMPRESA</a> </li>
+						<li> <a href="">PRÓXIMAS VIAGENS</a> </li>
+						<li> <a href="#depoimentos">DEPOIMENTOS</a> </li>
+						<li> <a href="">FOTOS</a> </li>
+						<li> <a href="">CONTATO</a> </li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+
+	<section id="banner">
+		<div class="container">
+			<div class="title">MONTE VERDE, MG - A SUIÇA MINEIRA</div>
+			<div class="descriptions">20 à 22 de dezembro de 2019</div>
+			<a href="" class="button">SAIBA MAIS</a>
+		</div>
+	</section>
+
+
+	<section id="geral">
+		<div class="container">
+			<div class="widget">
+				<div class="widget_text">
+					<div class="widget_title">OFERTAS ESPECIAIS</div>
+					<div class="widget_desc">Confira aqui as nossas próximas viagens com vagas:</div>
+				</div>
+				<div class="widget_thumbnails">
+					<a href="" class="link_moldura">
+						<div class="moldura">
+							<div id="text_moldura">
+								<div class="date">15 e 16 de fevereiro de 2020</div>
+								<div class="destino">LAPINHA DA SERRA, MG</div>
+								<div class="descripitions">As lindas paisagens de Lapinha da Serra</div>
+								<div class="botao">CONFIRA</div>								
+							</div>
+						</div>
+					</a>
+					<a href="" class="link_moldura">
+						<div class="moldura">
+							<div id="text_moldura">
+								<div class="date">15 e 16 de fevereiro de 2020</div>
+								<div class="destino">LAPINHA DA SERRA, MG</div>
+								<div class="descripitions">As lindas paisagens de Lapinha da Serra</div>
+								<div class="botao">CONFIRA</div>								
+							</div>
+						</div>
+					</a>
+					<a href="" class="link_moldura">
+						<div class="moldura">
+							<div id="text_moldura">
+								<div class="date">15 e 16 de fevereiro de 2020</div>
+								<div class="destino">LAPINHA DA SERRA, MG</div>
+								<div class="descripitions">As lindas paisagens de Lapinha da Serra</div>
+								<div class="botao">CONFIRA</div>								
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="widget">
+				<div class="widget_text">
+					<div class="widget_title">VIAGENS EM DESTAQUE</div>
+					<div class="widget_desc">Mais de 200 viagens realizadas, 70 destinos já feitos e mais de 6000 clientes atendidos com qualidade e segurança!</div>
+				</div>
+				<div class="widget_thumbnails">
+					<a href="" class="link_moldura">
+						<div class="moldura">
+							<div id="text_moldura">
+								<div class="date">15 e 16 de fevereiro de 2020</div>
+								<div class="destino">LAPINHA DA SERRA, MG</div>
+								<div class="descripitions">As lindas paisagens de Lapinha da Serra</div>
+								<div class="botao">CONFIRA</div>								
+							</div>
+						</div>
+					</a>
+					<a href="" class="link_moldura">
+						<div class="moldura">
+							<div id="text_moldura">
+								<div class="date">15 e 16 de fevereiro de 2020</div>
+								<div class="destino">LAPINHA DA SERRA, MG</div>
+								<div class="descripitions">As lindas paisagens de Lapinha da Serra</div>
+								<div class="botao">CONFIRA</div>								
+							</div>
+						</div>
+					</a>
+					<a href="" class="link_moldura">
+						<div class="moldura">
+							<div id="text_moldura">
+								<div class="date">15 e 16 de fevereiro de 2020</div>
+								<div class="destino">LAPINHA DA SERRA, MG</div>
+								<div class="descripitions">As lindas paisagens de Lapinha da Serra</div>
+								<div class="botao">CONFIRA</div>								
+							</div>
+						</div>
+					</a>
+					<a href="" class="link_moldura">
+						<div class="moldura">
+							<div id="text_moldura">
+								<div class="date">15 e 16 de fevereiro de 2020</div>
+								<div class="destino">LAPINHA DA SERRA, MG</div>
+								<div class="descripitions">As lindas paisagens de Lapinha da Serra</div>
+								<div class="botao">CONFIRA</div>								
+							</div>
+						</div>
+					</a>
+					<a href="" class="link_moldura">
+						<div class="moldura">
+							<div id="text_moldura">
+								<div class="date">15 e 16 de fevereiro de 2020</div>
+								<div class="destino">LAPINHA DA SERRA, MG</div>
+								<div class="descripitions">As lindas paisagens de Lapinha da Serra</div>
+								<div class="botao">CONFIRA</div>								
+							</div>
+						</div>
+					</a>
+					<a href="" class="link_moldura">
+						<div class="moldura">
+							<div id="text_moldura">
+								<div class="date">15 e 16 de fevereiro de 2020</div>
+								<div class="destino">LAPINHA DA SERRA, MG</div>
+								<div class="descripitions">As lindas paisagens de Lapinha da Serra</div>
+								<div class="botao">CONFIRA</div>								
+							</div>
+						</div>
+					</a>
+				</div>
+				<a href="" class="button">CLIQUE AQUI E CONFIRA TODAS AS NOSSAS PRÓXIMAS VIAGENS</a>
+			</div>
+
+			<div class="widget_news" id="sobre_empresa">
+				<div class="widget_thumbnail_2">
+					<div class="moldura"></div>
+				</div>
+				<div class="widget_text_2">
+					<div class="widget_title">SOBRE A EMPRESA</div>
+					<div class="widget_desc">
+						<p>A BH Ecoturismo já realizou mais de 150 viagens para vários estados do Brasil. Em 2018 iniciamos nossas viagens internacionais. Lançamos em março de 2018 a "Expedição as 7 Maravilhas do Mundo".</p>
+						<p>Temos viagens saindo de Belo Horizonte para os mais belos destinos de Minas, Brasil e também do Mundo.</p>
+					</div>
+					<a href="" class="button">SAIBA MAIS</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="depoimentos">
+		<div class="container">
+			<div class="dep_title">DEPOIMENTOS DE CLIENTES</div>
+			<div class="dep_comments">
+				<div class="comment_1">
+					<p>
+						A empresa é responsável e comprometida com a segurança e conforto, os destinos são incríveis, já fiz três viagens com eles e amei Todas ( Diamantina, arraial do Cabo e Búzios e para Morro de São Paulo) , boas hospedagens, ônibus confortável, guias atenciosos e prestativos. Ainda farei muitas viagens com a empresa e super recomendo.
+					</p>
+					<div class="footer_comments">
+						<div class="foto_comments"> <img src="assets/images/pp.jpg"> </div>
+						<div class="nome_comments">Eder Lima</div>
+					</div>
+				</div>
+				<div class="comment_2">
+					<p>
+						A viagem para Capitólio no carnaval foi ótima! Aproveito para elogiar o bom profissionalismo do responsável Marcelo, muito prestativo, bastante pontual e disponibilizou um ótimo atendimento ao grupo! Não tenho nada para reclamar apenas para agradecer a incrível viagem que vocês nos proporcionaram Com certeza eu vou novamente.
+					</p>
+					<div class="footer_comments">
+						<div class="foto_comments"> <img src="assets/images/pp.jpg"> </div>
+						<div class="nome_comments">Eder Lima</div>
+					</div>
+				</div>
+			</div>
+			<div class="dep_button"> <a href="" class="button">VER MAIS</a> </div>
+			<div class="dep_footer"> Entre em contato e conheça mais sobre a Max Luxury Tur.<a href="" class="button contato">CONTATO</a>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="container">
+			<div class="area_1">
+				<div class="footer_area_title">Agência de turismo</div>
+				<div class="footer_area_body">
+					<p>BH ECOTURISMO</p>
+					<p>CNPJ: 26.839.680/0001-25</p>
+					<p>Cadastur: 11.089486.10.0001-5</p>
+					<p class="caracter_spaecial">Cadastre seu whats-app</p>
+				</div>
+				<div> <a href=""> <img src="assets/images/whatsap.png"> </a> </div>
+			</div>
+			<div class="area_2">
+				<div class="footer_area_title">Horários de atendimento</div>
+				<div class="footer_area_body">
+					<p>Segunda à sexta: 09:00 às 18:00</p>
+					<p>Em nosso telefone e whats-app</p>
+					<p class="caracter_spaecial">Em breve a nossa agência física!</p>
+				</div>
+			</div>
+			<div class="area_3">
+				<div class="footer_area_title">Formas de pagamento</div>
+				<div class="footer_area_body">
+					<img src="assets/images/bandeira-cartoes.png">
+				</div>
+			</div>
+		</div>
+		<div class="rodape">
+			© Copyright 2016-2019 BH Ecoturismo - Uma empresa do Grupo Ecoturismo
+		</div>
+	</footer>
+</body>
+</html>
