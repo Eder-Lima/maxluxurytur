@@ -83,6 +83,7 @@ body{
 }
 
 .espaco{
+	width: 100%;
 	height: 25px;
 }
 
@@ -128,8 +129,8 @@ header .menu{
 }
 
 header .menu_mobily{
-	width: 45px;
-	height: 45px;
+	width: 40px;
+	height: 40px;
 	display: none;
 }
 
@@ -164,10 +165,12 @@ header li:hover{
 #banner{
 	width: 100%;
 	height: 700px;
+
 	background-image: url("../images/img4.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -295,22 +298,22 @@ header li:hover{
 	display: inline-block;
 }
 
+
+
 #geral .widget_news{
 	display: flex;
 	margin-top: 50px;
 }
 
-#geral.widget_thumbnail_2{
-
-}
-
 #geral .widget_thumbnail_2 .moldura{
 	width: 450px;
-	height: 390px;
+	height: 100%;
 	box-shadow: 0 0 20px gray;
-	background-image: url("../images/img1.jpg");
-	background-position: center;
-	background-size: cover;
+}
+
+#geral .widget_thumbnail_2 .moldura img{
+	width: 100%;
+	height: 100%;
 }
 
 #geral .widget_text_2{
@@ -411,24 +414,14 @@ footer{
 
 footer .container{
 	display: flex;
+	width: 95%;
 }
 
 footer .area_1, .area_2, .area_3{
 	flex: 1;
 	color: white;
 	margin-right: 20px;
-}
-
-footer .area_1{
-	
-}
-
-footer .area_2{
-	
-}
-
-footer .area_3{
-	
+	margin-left: 20px;
 }
 
 footer .footer_area_title{
@@ -449,15 +442,10 @@ footer .area_1 .footer_area_body{
 	border-bottom: 1px solid #777;
 }
 
-footer .area_1 .caracter_spaecial{
+footer .area_1 .caracter_special{
 	margin-top: 50px;
 	font-size: 18px;
 	color: #fafafa;
-}
-
-footer .area_2 .caracter_spaecial{
-	margin-top: 30px;
-	font-size: 18px;
 }
 
 footer .area_1 img{
@@ -467,12 +455,79 @@ footer .area_1 img{
 	margin-bottom: 100px;
 }
 
+footer .area_3 img{
+	width: 100%;
+}
+
+footer .area_2 .caracter_special{
+	margin-top: 30px;
+	font-size: 18px;
+}
+
 footer .rodape{
 	background-color: #23272a;
 	width: 100%;
 	text-align: center;
 	padding: 40px 0 40px 0;
 	color: #c7c7c8;
+}
+
+
+
+
+@media only screen and (max-width: 1020px){
+	#geral .widget_thumbnails .link_moldura{
+		margin: 20px;
+	}
+
+	#geral .widget_news{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#geral.widget_thumbnail_2{
+		align-items: center;
+	}
+
+	#geral .widget_text_2{
+		text-align: center;
+	}
+
+	#geral .widget_thumbnail_2 .moldura{
+		width: 100%;
+	}
+
+	#depoimentos .dep_comments{
+		flex-direction: column;
+	}
+
+	.comment_1, .comment_2{
+		margin-bottom: 20px;
+	}
+
+	#depoimentos .dep_footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contato{
+		margin-left: 0;
+		width: 30%;
+		text-align: center;
+	}
+
+	footer .container{
+		flex-direction: column;
+	}
+
+	footer .area_1 img{
+		width: 40%;
+	}
+
+	footer .area_3 img{
+		width: 80%;
+	}
 }
 
 
@@ -503,9 +558,28 @@ footer .rodape{
 	}
 }
 
-@media only screen and (max-width: 499px){
+@media only screen and (min-width: 450px) and (max-width: 499px){
 	header .logo{
-		font-size: 30px;
+		font-size: 50px;
+	}
+
+	header ul{
+		display: none;
+	}
+
+	header .menu_mobily{
+		width: 38px;
+		height: 38px;
+		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 449px){
+	header .logo{
+		font-size: 40px;
 	}
 
 	header ul{
@@ -517,5 +591,57 @@ footer .rodape{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		width: 30px;
+		height: 30px;
+	}
+
+	header .menu_mobily .line{
+		height: 7px;
+	}
+}
+
+@media only screen and (min-width: 335px) and (max-width: 374px){
+	header .logo{
+		font-size: 35px;
+	}
+
+	header ul{
+		display: none;
+	}
+
+	header .menu_mobily{
+		width: 30px;
+		height: 30px;
+		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	header .menu_mobily .line{
+		height: 7px;
+	}
+}
+
+@media only screen and (max-width: 334px){
+	header .logo{
+		font-size: 30px;
+	}
+
+	header ul{
+		display: none;
+	}
+
+	header .menu_mobily{
+		width: 30px;
+		height: 30px;
+		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	header .menu_mobily .line{
+		height: 7px;
 	}
 }
